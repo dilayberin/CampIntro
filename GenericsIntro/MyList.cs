@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//deneme
 namespace GenericsIntro
 {
      class MyList<T>
@@ -23,5 +23,6 @@ namespace GenericsIntro
             }
             items[items.Length-1] = item;
         }
+        
     }
 }
