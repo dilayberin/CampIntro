@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KampIntro", "KampIntro\Kamp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{8EC9CE99-C039-44F0-9C6A-EEFC005326C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{BCBD068C-96D7-4B48-815C-2812B81B5739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{BCBD068C-96D7-4B48-815C-2812B81B5739}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{5F333A30-F1EC-407F-AEB8-CA9FF1FAC997}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{5F333A30-F1EC-407F-AEB8-CA9FF1FAC997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{AFF869C8-CA3A-42F0-A27E-7CD5324D2490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5F333A30-F1EC-407F-AEB8-CA9FF1FAC997}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F333A30-F1EC-407F-AEB8-CA9FF1FAC997}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F333A30-F1EC-407F-AEB8-CA9FF1FAC997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF869C8-CA3A-42F0-A27E-7CD5324D2490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF869C8-CA3A-42F0-A27E-7CD5324D2490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF869C8-CA3A-42F0-A27E-7CD5324D2490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF869C8-CA3A-42F0-A27E-7CD5324D2490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
