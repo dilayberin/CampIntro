@@ -15,7 +15,7 @@ namespace OOP3
 
         public void Compute()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Konut kredisi hesaplandı.");
         }
     }
 }
