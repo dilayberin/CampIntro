@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP2
 {//tüzel
-     class CoorporateCustomer
+ //CoorporateCustomer:Customer  miras-inheratience
+    class CoorporateCustomer :Customer
     {
-        public int CustomerId { get; set; }
-        public string CustomerNum { get; set; }
+        
         public string CompanyName { get; set; }
         public string TaxNum { get; set; }//verginum
 
