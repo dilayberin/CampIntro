@@ -8,9 +8,11 @@ namespace OOP3
 {
      class ApplyManager
     {
-        public void Apply(ICreditManager creditManager)
+        public void Apply(ICreditManager creditManager,ILoggerService loggerService)
         {
             creditManager.Compute();
+            loggerService.Log();
+
         }
 
         public void CreditInformation(List<ICreditManager> credits)
