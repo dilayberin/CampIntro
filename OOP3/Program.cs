@@ -10,11 +10,16 @@
             ICreditManager tradesmanCreditManager=new TradesmanCreditManager();
 
             ILoggerService databaseLoggerService =new DatabaseLoggerService();
-            ILoggerService fileLoggerService=new FileLoggerService();   
-            ILoggerService smsLoggerService =new SmsLoggerService();
+            ILoggerService fileLoggerService=new FileLoggerService();
+
+            //List<ILoggerService> loggers = new List<ILoggerService> {new SmsLoggerService(),new FileLoggerService() };
+
+
 
             ApplyManager applyManager = new ApplyManager();
-            applyManager.Apply(tradesmanCreditManager, smsLoggerService);
+
+            applyManager.Apply(tradesmanCreditManager, 
+                new List<ILoggerService> {new DatabaseLoggerService() , new SmsLoggerService()} );
 
             List<ICreditManager>credits = new List<ICreditManager>(){ personalFinanceCreditManager , vehicleCreditManager };
 
